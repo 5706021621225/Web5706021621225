@@ -85,7 +85,7 @@
       </tr>
       <tr>
         <td colspan="4" align="center">
-          <input type="submit" value="  OK  ">
+          <input type="submit" value="   OK   ">
           <input type="reset" value="  Clear  ">
         </td>
       </tr>

@@ -42,18 +42,21 @@
         echo "<b>วัน/เดือน/ปีเกิด : </b>$day/$month2/$year2<br/>";
       elseif($year2%4!=0&&$month=="กุมภาพันธ์"&&$day>28)
         echo "<b>วัน/เดือน/ปีเกิด : </b>กรุณากรอกใหม่<br/>";
+      elseif($year2%4==0&&$month=="กุมภาพันธ์"&&$day>29)
+        echo "<b>วัน/เดือน/ปีเกิด : </b>กรุณากรอกใหม่<br/>";
       else echo "<b>วัน/เดือน/ปีเกิด : </b>$day/$month2/$year2<br/>";
 
       $age=2559-$year;
       if($age>=1&&$age<=12) echo "<b>อายุ : </b>$age (เด็ก)<br/>";
       elseif($age>=13&&$age<=19) echo "<b>อายุ : </b>$age (วัยรุ่น)<br/>";
       elseif($age>19) echo "<b>อายุ : </b>$age (ผู้ใหญ่)<br/>";
-      
+
       echo "<b>อาชีพ : </b>$career<br/>";
       echo "<b>เบอร์โทรศัพท์ : </b>$phone<br/>";
       echo "<b>งานอิเรก : </b>$hobby<br/>";
       echo "<b>Facebook : </b>$facebook<br/>";
-      echo "<b>Email : </b>$email<br/>";
+      echo "<b>Email : </b>$email<br/><br/><br/>";
     ?>
+    <a href="Homework1.php"><input type="button" value=" Back "></a>
   </body>
 </html>
