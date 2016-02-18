@@ -48,7 +48,7 @@
       if($age>=1&&$age<=12) echo "<b>อายุ : </b>$age (เด็ก)<br/>";
       elseif($age>=13&&$age<=19) echo "<b>อายุ : </b>$age (วัยรุ่น)<br/>";
       elseif($age>19) echo "<b>อายุ : </b>$age (ผู้ใหญ่)<br/>";
-      
+
       echo "<b>อาชีพ : </b>$career<br/>";
       echo "<b>เบอร์โทรศัพท์ : </b>$phone<br/>";
       echo "<b>งานอิเรก : </b>$hobby<br/>";
