@@ -7,8 +7,8 @@
   <?php
     $number=array();
     echo "<form>";
-    echo "<table align='center' width='350'>";
-    echo "<tr><td align='center' colspan='4' bgcolor='#CDB38B'><big>Random ตัวเลข 1 ถึง 52 โดยไม่ซ้ำกัน</big></td></tr>";
+    echo "<table align='center' width='400'>";
+    echo "<tr><td align='center' colspan='4' bgcolor='#CDB38B'><font face='Tahoma' size='5'>Random ตัวเลข 1 ถึง 52 โดยไม่ซ้ำกัน</font></td></tr>";
 
     for($n=1;$n<=13;$n++)
     {
@@ -29,7 +29,7 @@
         elseif($number[$rand]%3==0) echo "<td align='center' bgcolor='#CDB38B'>";
         elseif($number[$rand]%7==0) echo "<td align='center' bgcolor='#8B795E'>";
         else echo "<td align='center' bgcolor='#FFFACD'>";
-        echo "<big>".$number[$rand]."</big>";
+        echo "<font face='Tahoma' size='5'>".$number[$rand]."</font>";
         echo "</td>";
       }
       echo "</tr>";
