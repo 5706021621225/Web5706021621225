@@ -35,6 +35,9 @@
       echo "</tr>";
     }
     echo "</table>";
+    echo "<p align='center'>";
+    echo "<button type='submit'><a href=random52.php></a>Refresh</button>";
+    echo "</p>";
     echo "</form>";
   ?>
 </body>
